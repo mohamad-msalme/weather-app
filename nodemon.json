@@ -1,7 +1,6 @@
 {
-        "watch": ["src"],
-        "ext": "ts,tsx",
-        "ignore": ["src/**/*.spec.ts"],
-        "exec": "ts-node ./src/index.ts"
-      }
-      
+  "watch": ["src", "./templates", "./public"],
+  "ext": "ts,tsx,js,css,hbs",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "ts-node ./src/index.ts"
+}
